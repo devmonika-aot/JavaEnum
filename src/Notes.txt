@@ -1,0 +1,23 @@
+Advantage of ENUM over Constant.
+1)  both are use for declaring constant, but enum is type safe which means it will show error at compile time.
+    helps us to make less error.
+
+2)  we can define more than one Constant in one enum varibale, refer to this example.
+
+Q1. Can we create the instance of Enum by the new keyword?
+Ans:
+No, we can’t create the instance of the Enum keyword because it contains private constructors only.
+Also, We can't use set method as well.
+
+Q2. Can we have an abstract method in the Enum?
+Ans:
+Yes, we have an abstract method in Enum.
+
+Q3. What is the purpose of the values() method in the enum?
+Ans:
+In Java, the values( ) method can be used to return all values present inside the enum.
+
+Q5. What is the purpose of the ordinal() method in the enum?
+Ans:
+By using the ordinal() method, each enum constant index can be found, just like an array index.
+
